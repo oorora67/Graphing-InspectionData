@@ -7,6 +7,7 @@
 ### 利用ライブラリ
 - matplotlib
 > 公式サイト(https://matplotlib.org/) 
+ターミナルで以下のコマンドを実行する事によりmatplotlibをインストールできる
 ```
 pip install matplotlib
 ```
