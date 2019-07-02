@@ -7,4 +7,4 @@
 ### 利用ライブラリ
 - matplotlib
 >公式サイト(https://matplotlib.org/)
->インストールの仕方`pip install matplotlib`をターミナルで実行する
+インストールの仕方`pip install matplotlib`をターミナルで実行する
