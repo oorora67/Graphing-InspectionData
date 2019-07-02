@@ -6,5 +6,5 @@
 > 公式サイト(https://www.python.org/)
 ### 利用ライブラリ
 - matplotlib
-> 公式サイト(https://matplotlib.org/)
-> インストールの仕方`pip install matplotlib`をターミナルで実行する
+>公式サイト(https://matplotlib.org/)
+>インストールの仕方`pip install matplotlib`をターミナルで実行する
