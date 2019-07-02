@@ -5,4 +5,5 @@
 - Python 3.7.0
 > 公式サイト(https://www.python.org/)
 ### 利用ライブラリ
-- - matplotlib
+- matplotlib
+> 公式サイト(https://matplotlib.org/)
