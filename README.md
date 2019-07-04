@@ -13,7 +13,7 @@
 - HW:MacBook Pro (13-inch,2017)
 - OS:macOS Mojave Ver 10.14.5  
 - CPU: Intel Core i5 2.3Ghz  
-- Mem:8GB 2133MHz LPDDR3  
+- RAM:8GB 2133MHz LPDDR3  
 ### Linux
 - 未検証  
 ### Windows
