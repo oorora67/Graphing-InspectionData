@@ -1,4 +1,5 @@
 # Graphing-InspectionData
+Alpha-Version  
 検査データのグラフ化
 ## 環境
 ### 開発言語
