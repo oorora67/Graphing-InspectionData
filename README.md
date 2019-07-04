@@ -7,7 +7,7 @@
 ### 利用ライブラリ
 - matplotlib  
 > 公式サイト(https://matplotlib.org/)  
-> インストール方法`pip install matplotlib`をターミナルで実行する  
+> インストール方法`pip install matplotlib`または`pip3 install matplotlib`(Pythonの環境によって変わる)をターミナルで実行する  
 ## 検証環境
 ### macOS
 - HW:MacBook Pro (13-inch,2017)
@@ -22,7 +22,7 @@
 ### デフォルト設定で利用する
 - Dataフォルダ内に検査データ(.dlk)ファイルを入れる(※データを入れすぎるとメモリが足りなくなる可能性がある【未検証】)  
 - ターミナルを開きData2Graph.pyのあるフォルダまで移動する  
-- ターミナルで`python3 Data2Graph.py`を実行する  
+- ターミナルで`python3 Data2Graph.py`または`python3 Data2Graph.py`(Pythonの環境によって変わる)を実行する  
 - 処理が完了するとData2Graph.pyのあるフォルダ内にGraphというフォルダが作成されその中にグラフが出力される  
 ### カスタム設定で利用する
 - 未検証
