@@ -137,8 +137,8 @@ if __name__ == '__main__':
         os.makedirs(Save_Path+'/'+str(plot_label)+'_'+TestName+'_'+TestUnit+'/', exist_ok=True)
         for i in range(0, Loop_count):
             point = i * Data_count
-            TestListY = DataListY[point:point + Data_count]
-            TestListX = DataListX[point:point + Data_count]
+            PlotListY = DataListY[point:point + Data_count]
+            PlotListX = DataListX[point:point + Data_count]
             #print(TestListY)
             fig = plt.figure(figsize=(15, 8), dpi=100)
             ax = fig.add_subplot(1,1,1)
@@ -147,7 +147,7 @@ if __name__ == '__main__':
             ax.set_ylim(DataMinValue - StandardWidth,DataMaxValue + StandardWidth)
             ax.set_xlim(point,point + Data_count)
             DataSE = [point,point + Data_count]
-            ax.plot(TestListX,TestListY,label="Data")
+            ax.plot(PlotListX,PlotListY,label="Data")
             ax.plot(DataSE,DataMax,color='red',label="Max")
             ax.plot(DataSE,DataMin,color='blue',label="Min")
             ax.legend(bbox_to_anchor=(1.01, 1), loc='upper left', borderaxespad=0, fontsize=10)
@@ -158,6 +158,8 @@ if __name__ == '__main__':
 
         del DataListY
         del DataListX
+        del PlotListY
+        del PlotListX
         del DataListEX
         del DataListEY
         del DataMax

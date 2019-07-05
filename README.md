@@ -12,11 +12,14 @@
 ### macOS
 - HW:MacBook Pro (13-inch,2017)
 - OS:macOS Mojave Ver 10.14.5  
-- CPU: Intel Core i5 2.3Ghz  
-- RAM:8GB 2133MHz LPDDR3  
+- CPU: Intel Core i5 2.3GHz  
+- RAM:8GB (2133MHz LPDDR3)  
 - Python 3.7.0  
 ### Linux
-- 未検証  
+- OS:Ubuntu 16.04.4 LTS (MATE 1.12.1)  
+- CPU Intel Xeon E5-2697 v2 2.7GHz  
+- RAM:64GB  
+- Python 3.5.2  
 ### Windows
 - 未検証  
 ## 利用方法
