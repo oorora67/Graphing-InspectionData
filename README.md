@@ -29,7 +29,7 @@
 - ターミナルで`python3 Data2Graph.py`または`python Data2Graph.py`(Pythonの環境によって変わる)を実行する  
 - 処理が完了するとData2Graph.pyのあるフォルダ内にGraphというフォルダが作成されその中にグラフが出力される  
 ### カスタム設定で利用する
-- カスタム設定を利用する場合ターミナルで`python3 Data2Graph.py <オプション>`または`python Data2Graph.py <オプション>`  
+- カスタム設定を利用する場合ターミナルで`python3 Data2Graph.py <オプション>`または`python Data2Graph.py <オプション>`を実行する  
 - 例)`python3 Data2Graph.py -i ./SampleData -o ./SampleGraph -c 10000 -s 1 -e 10`
 
 | オプション | 機能 |  
