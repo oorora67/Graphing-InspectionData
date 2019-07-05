@@ -89,20 +89,19 @@ if __name__ == '__main__':
         Option_Data['cut'] = int(args.cut)
     #どの検査項目をグラフ化するか(検査データの書いてある順番で処理を行う)
     if(args.start is not None):
-        Option_Data['start'] = int(args.start)
+        Option_Data['start'] = min(int(args.start),int(args.end))
         if args.end is None:
-            Option_Data['end'] = int(args.start) + 1
+            Option_Data['end'] = int(args.start)
     if(args.end is not None):
-        Option_Data['end'] = int(args.end)
+        Option_Data['end'] = max(int(args.start),int(args.end))
         if args.start is None:
             Option_Data['start'] = int(args.end)
-            Option_Data['end'] = int(args.end) + 1
     if args.start is None and args.end is None:
         Option_Data['start'] = 1
         Option_Data['end'] = len(InspectionItem_Data)
 
     #グラフ処理
-    for plot_label in range(Option_Data['start'],Option_Data['end']):
+    for plot_label in range(Option_Data['start'],Option_Data['end'] + 1):
         output_time = time.time()
         label_No = 0
         DataNo = 0
