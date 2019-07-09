@@ -142,6 +142,8 @@ if __name__ == '__main__':
             fig = plt.figure(figsize=(15, 8), dpi=100)
             ax = fig.add_subplot(1,1,1)
             ax.set_title(TestName, fontsize = 16)
+            ax.set_xlabel("Count", size = 14, weight = "light")
+            ax.set_ylabel(TestUnit, size = 14, weight = "light")
             StandardWidth = (DataMaxValue - DataMinValue)*0.05
             ax.set_ylim(DataMinValue - StandardWidth,DataMaxValue + StandardWidth)
             ax.set_xlim(point,point + Data_count)
