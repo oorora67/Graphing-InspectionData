@@ -56,12 +56,12 @@ if __name__ == '__main__':
                 data_del = data_del[0].split(",")       #カンマで検査データの分割
                 #print(data_del)
                 if len(data_del) == 8 :     #８分割されたか確認
+                    if data_del[5]=="-" and data_del[6]=="-":
+                        data_del[5] = 0
+                        data_del[6] = 0
                     if IID_F == 0:
                         InspectionItem_Data.append([str(data_del[2]),str(data_del[4]),float(data_del[5]),float(data_del[6])])   #各検査項目の名前などをリスト化して保存
-                    if data_del[3] == "-":
-                        data_temp.append(float(0))
-                    else:
-                        data_temp.append(float(data_del[3]))        #計測データだけをリストに追加
+                    data_temp.append(float(data_del[3]))        #計測データだけをリストに追加
                 elif data_del[0] == 'D':        #計測データの区切りをリストに追加
                     label_No = label_No + 1
                     data_temp.append(str(data_del))
