@@ -36,7 +36,7 @@ if __name__ == '__main__':
     #ファイル読み込み
     if(args.input is not None):
         Option_Data['input'] = args.input
-    file_list = sorted(glob.glob(Option_Data['input']+'/*.dlk'))        #検査データを列挙しリスト化
+    file_list = sorted(glob.glob(Option_Data['input']+'/*.dlk'), key = str.lower)        #検査データを列挙しリスト化
     #print(file_list)
     data_all=[]
     data_set=[]
